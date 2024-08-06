@@ -1,0 +1,63 @@
+/* Reset some basic styles */
+body, h1, h2, p, ul, li {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ font-family: Arial, sans-serif;
+ line-height: 1.6;
+ background-color: #f4f4f4;
+ color: #333;
+}
+
+header {
+ background: #35424a;
+ color: #ffffff;
+ padding: 20px 0;
+ text-align: center;
+}
+
+nav {
+ background: #e8491d;
+ color: #ffffff;
+ padding: 10px 0;
+}
+
+nav ul {
+ list-style: none;
+ text-align: center;
+}
+
+nav ul li {
+ display: inline;
+ margin-right: 10px;
+}
+
+nav ul li a {
+ color: #ffffff;
+ text-decoration: none;
+ padding: 5px 10px;
+}
+
+nav ul li a:hover {
+ background: #333;
+ color: #ffffff;
+}
+
+main {
+ padding: 20px;
+ background: #ffffff;
+ margin: 20px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+ text-align: center;
+ padding: 10px 0;
+ background: #35424a;
+ color: #ffffff;
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+}
